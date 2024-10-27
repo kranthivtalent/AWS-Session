@@ -69,4 +69,25 @@ npm run start
 
 > NOTE - We will have to edit the **inbound rules** in the security group of our EC2, in order to allow traffic from our particular port
 
+Continue run npm is below
+Using PM2 module:
+
+Installing module in project Directory:
+
+#sudo npm install pm2@latest -g
+
+Start Your Node.js Application by pm2.
+
+#pm2 start server.js
+
+All processes listed up which are registered with pm2.
+
+#pm2 list
+
+We can also stop any process runs by pm2 stop command:
+
+#pm2 stop all                  
+#pm2 stop [id number]
+
+
 ### Project is deployed on AWS 🎉
